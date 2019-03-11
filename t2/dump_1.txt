@@ -1,0 +1,139 @@
+
+Dump of file sss_01.exe
+
+PE signature found
+
+File Type: EXECUTABLE IMAGE
+
+FILE HEADER VALUES
+             14C machine (x86)
+               4 number of sections
+        5C7CC447 time date stamp Mon Mar  4 14:23:03 2019
+               0 file pointer to symbol table
+               0 number of symbols
+              E0 size of optional header
+             102 characteristics
+                   Executable
+                   32 bit word machine
+
+OPTIONAL HEADER VALUES
+             10B magic # (PE32)
+           14.11 linker version
+              20 size of code
+             180 size of initialized data
+               0 size of uninitialized data
+             250 entry point (00400250)
+             250 base of code
+             270 base of data
+          400000 image base (00400000 to 004003EF)
+              10 section alignment
+              10 file alignment
+            6.00 operating system version
+            0.00 image version
+            6.00 subsystem version
+               0 Win32 version
+             3F0 size of image
+             250 size of headers
+               0 checksum
+               2 subsystem (Windows GUI)
+             540 DLL characteristics
+                   Dynamic base
+                   NX compatible
+                   No structured exception handler
+          100000 size of stack reserve
+            1000 size of stack commit
+          100000 size of heap reserve
+            1000 size of heap commit
+               0 loader flags
+              10 number of directories
+               0 [       0] RVA [size] of Export Directory
+             350 [      3C] RVA [size] of Import Directory
+               0 [       0] RVA [size] of Resource Directory
+               0 [       0] RVA [size] of Exception Directory
+               0 [       0] RVA [size] of Certificates Directory
+             3E0 [      10] RVA [size] of Base Relocation Directory
+             290 [      1C] RVA [size] of Debug Directory
+               0 [       0] RVA [size] of Architecture Directory
+               0 [       0] RVA [size] of Global Pointer Directory
+               0 [       0] RVA [size] of Thread Storage Directory
+               0 [       0] RVA [size] of Load Configuration Directory
+               0 [       0] RVA [size] of Bound Import Directory
+             270 [      10] RVA [size] of Import Address Table Directory
+               0 [       0] RVA [size] of Delay Import Directory
+               0 [       0] RVA [size] of COM Descriptor Directory
+               0 [       0] RVA [size] of Reserved Directory
+
+
+SECTION HEADER #1
+   .text name
+      1A virtual size
+     250 virtual address (00400250 to 00400269)
+      20 size of raw data
+     250 file pointer to raw data (00000250 to 0000026F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+68000020 flags
+         Code
+         Not Paged
+         Execute Read
+
+SECTION HEADER #2
+  .rdata name
+      E0 virtual size
+     270 virtual address (00400270 to 0040034F)
+      E0 size of raw data
+     270 file pointer to raw data (00000270 to 0000034F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+48000040 flags
+         Initialized Data
+         Not Paged
+         Read Only
+
+  Debug Directories
+
+        Time Type        Size      RVA  Pointer
+    -------- ------- -------- -------- --------
+    5C7CC447 coffgrp       A4 000002AC      2AC
+
+SECTION HEADER #3
+    INIT name
+      82 virtual size
+     350 virtual address (00400350 to 004003D1)
+      90 size of raw data
+     350 file pointer to raw data (00000350 to 000003DF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+CA000040 flags
+         Initialized Data
+         Discardable
+         Not Paged
+         Read Write
+
+SECTION HEADER #4
+  .reloc name
+      10 virtual size
+     3E0 virtual address (004003E0 to 004003EF)
+      10 size of raw data
+     3E0 file pointer to raw data (000003E0 to 000003EF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42000040 flags
+         Initialized Data
+         Discardable
+         Read Only
+
+  Summary
+
+          E0 .rdata
+          10 .reloc
+          20 .text
+          90 INIT
